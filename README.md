@@ -246,6 +246,15 @@ To format and return Money as a string use `Display()`.
 money.New(123456789, "EUR").Display() // €1,234,567.89
 ```
 
+ToWords
+-
+
+To format and return Money as a string use `ToWords()`.
+
+```go
+money.New(100, "PHP").ToWords() // one hundred pesos only
+```
+
 Contributing
 -
 Thank you for considering contributing!
